@@ -1,0 +1,10 @@
+from traitlets.traitlets import Type
+name = input("Coloque seu nome:")
+anodenascimento = input("Digite o ano de seu Nascimento: ")
+idade = int(anodenascimento)
+idadeatual = 2022 - idade
+
+if not type(idade) is int:
+  raise TypeError("Sorry,")
+else:
+    print("O nome do Usuario e: ",name, "ele tem", idadeatual, "anos")
