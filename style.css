@@ -1,46 +1,59 @@
-header{
-    background-color: rgb(6, 182, 138);
+header nav ul{
+                                                  
     display: flex;
-    justify-content: space-between;
-    padding: 16px;
-    margin-bottom: 16px; ;
+    justify-content: space-evenly;
+    list-style: none;                                             
+    
+}
+header h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: rgb(26, 119, 3);
 }
 nav{
 
 }
-ul{
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-nav ul li{
-    padding-left: 16px;
-    list-style-type: none;
-}
-main{
-    width: 900px;
+                                                            
+
+main{                                    
+    display: block;
+    
     margin: auto;
-    color: rgb(41, 182, 5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(26, 119, 3);
 
 }
 h1{
     font-size: 2rem;
     padding-left: 10px;
 
-}
+}                                                  
 h2{
     font-size: 1.5rem;
-    padding-left: 100px;
+    padding-left: 100px;                                                                                   
 }
 section{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;                                   
     margin-top: 10px;
 }
+                                              
 section div{
-
+    display: flex;
+    justify-content: space-between;
 }
+.img{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.textos{
+    display: flex;
+    justify-content:space-between;
+    align-items: center                                                                                                                                                                                                                                                                                                                                                                  ;
+   
+}
+
 body{
-    background-color: aquamarine;
+    background-color: rgb(166, 226, 206);
 }
